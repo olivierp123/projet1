@@ -1,0 +1,16 @@
+uuid: 55ef075d-fdae-4dc6-bc9c-6013e6f56aec
+langcode: fr
+status: true
+dependencies:
+  module:
+    - media
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Utilisateur anonyme'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'view media'

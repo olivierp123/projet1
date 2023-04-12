@@ -1,0 +1,29 @@
+uuid: 2a72134a-1567-4275-8eb4-ee57707d879b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.type_contenu_1.body
+    - node.type.type_contenu_1
+  module:
+    - text
+    - user
+id: node.type_contenu_1.default
+targetEntityType: node
+bundle: type_contenu_1
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
